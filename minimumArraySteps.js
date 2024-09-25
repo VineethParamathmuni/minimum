@@ -5,6 +5,11 @@ var count = 0;
 var currentReach = 0; 
 
 function counts(arr){
+    if(arr.length = 1){
+        count = 1;
+        console.log(count, "count");
+        return;
+    }    
     for (let i = 0; i < arr.length - 1; i++) {
     pointer = Math.max(pointer, i + arr[i]);    
     if (pointer >= arr.length - 1) {
