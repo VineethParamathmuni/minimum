@@ -5,7 +5,7 @@ var count = 0;
 var currentReach = 0; 
 
 function counts(arr){
-    if(arr.length = 1){
+    if(arr.length === 1){
         count = 1;
         console.log(count, "count");
         return;
